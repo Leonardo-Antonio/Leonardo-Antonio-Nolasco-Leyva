@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Saira:wght@600;700&display=swap');
+
+:root {
+  --primary: #00aae4;
+}
+
+.color-primary {
+  color: var(--primary);
+}
+
+.container-center {
+  width: 1168px;
+  margin: auto;
+}
+
+.color-text-primary {
+  color: var(--primary);
+}
+
+.text-logo {
+  font-family: Saira;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39px;
+}
+
+.item-menu {
+  font-family: Saira;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 39px;
+
+  color: #000000;
+}
+
+.item-menu:hover {
+  border-bottom: 2px solid var(--primary);
+}
+
+.title {
+  font-family: Saira;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 80px;
+}
+
+.subtitle {
+  font-family: Saira;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 44px;
+}
+
+.btn-primary {
+  background: var(--primary);
+  border-radius: 50px;
+  width: 320px;
+  height: 45px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  border: 1px solid var(--primary);
+  background: #fff;
+  color: var(--primary);
+  transition: all 0.5s;
+}
+
+.items-title {
+  font-family: Saira;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 80px;
+  color: #000000;
+}
+
+.input {
+  border: 1px solid #00aae4;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 10px;
+  outline: none;
+}
+
+.btn-primary-auto {
+  background: var(--primary);
+  border-radius: 50px;
+  width: 100%;
+  height: 45px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-primary-auto:hover {
+  border: 1px solid var(--primary);
+  background: #fff;
+  color: var(--primary);
+  transition: all 0.5s;
+}
